@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useLenis } from './hooks/useLenis'
 import Loader from './components/Loader'
 import Cursor from './components/Cursor'
-import Nav from './components/Nav'
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -26,7 +26,7 @@ export default function App() {
       <div className="noise" />
       <Cursor />
       <Loader show={loading} />
-      <Nav />
+      <Navbar/>
       <main>
         <Hero />
         <About />
