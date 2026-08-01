@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { CiShare1 } from "react-icons/ci";
+import logo from "../assets/portfolio.png"
 
 const links = [
   { label: 'About', href: '#about' },
@@ -44,7 +45,7 @@ export default function Nav() {
       className="fixed top-0 inset-x-0 z-40 px-6 md:px-10 py-5 flex items-center justify-between backdrop-blur-sm bg-ink/60"
     >
       <a href="#top" className="font-display text-lg tracking-tight text-bone">
-        MM<span className="text-saffron">.</span>
+       <img className='w-14' src={logo} alt="MM" />
       </a>
       <nav className="hidden md:flex items-center gap-8">
         {links.map((l) => (
