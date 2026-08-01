@@ -110,7 +110,7 @@ export default function Projects() {
   const lineProgress = useTransform(scrollXProgress, [0, 1], [0, 1])
 
   return (
-    <section id="work" className="py-28 md:py-32">
+    <section id="work" className="py-10 md:py-20">
       <div className="px-6 md:px-10 max-w-6xl mx-auto mb-10">
         <Reveal>
           <span className="font-mono text-sm text-saffron">Selected work</span>

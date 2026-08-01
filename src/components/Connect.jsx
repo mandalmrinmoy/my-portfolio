@@ -66,7 +66,7 @@ export default function Connect() {
   return (
     <section
       id="connect"
-      className="px-6 md:px-10 py-28 md:py-32 border-t border-ink-line"
+      className="px-6 md:px-10 py-10 md:py-20 border-t border-ink-line"
     >
       <div className="max-w-6xl mx-auto">
         <Reveal>

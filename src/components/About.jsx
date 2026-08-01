@@ -4,7 +4,7 @@ import { profile } from '../data/content'
 
 export default function About() {
   return (
-    <section id="about" className="px-6 md:px-10 py-28 md:py-40">
+    <section id="about" className="px-6 md:px-10 py-10 md:py-20">
       <div className="max-w-6xl mx-auto grid md:grid-cols-[0.9fr_1.1fr] gap-14 md:gap-20 items-start">
         <Reveal>
           <motion.div

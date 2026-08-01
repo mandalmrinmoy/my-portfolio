@@ -69,7 +69,7 @@ function TiltCard({ skill }) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 md:px-10 py-28 md:py-32 border-y border-ink-line">
+    <section id="skills" className="px-6 md:px-10 py-10 md:py-20 border-y border-ink-line">
       <div className="max-w-6xl mx-auto">
         <Reveal>
           <span className="font-mono text-sm text-teal">Toolbox</span>
@@ -87,7 +87,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="mt-16 border-t border-ink-line overflow-hidden py-6">
+      <div className="mt-16 border-t border-ink-line overflow-hidden py-10 -mb-16">
         <motion.div className="flex items-center whitespace-nowrap animate-marquee w-max">
           {[...skills, ...skills].map((s, i) => {
             const Icon = iconMap[s.icon]
