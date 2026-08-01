@@ -20,7 +20,7 @@ function ProjectCard({ project }) {
       data-cursor="pointer"
       whileHover={{ y: -8 }}
       transition={{ type: 'spring', stiffness: 300, damping: 22 }}
-      className="group relative shrink-0 w-[340px] sm:w-[380px] h-[520px] rounded-[26px] overflow-hidden bg-ink-soft shadow-[0_1px_0_0_rgba(237,234,224,0.06)] flex flex-col"
+      className="group relative shrink-0 w-[220px] sm:w-[340px] h-[520px] rounded-[26px] overflow-hidden bg-ink-soft shadow-[0_1px_0_0_rgba(237,234,224,0.06)] flex flex-col"
     >
       {/* image */}
       <div className="relative h-[280px] w-full shrink-0 overflow-hidden">
