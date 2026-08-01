@@ -22,7 +22,7 @@ export default function App() {
   }, [])
 
   return (
-    <div className="font-body bg-ink min-h-screen selection:bg-saffron">
+    <div className="font-body min-h-screen selection:bg-saffron">
       <div className="noise" />
       <Cursor />
       <Loader show={loading} />
