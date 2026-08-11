@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useLenis } from './hooks/useLenis'
 import Loader from './components/Loader'
-import Cursor from './components/Cursor'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -24,7 +23,6 @@ export default function App() {
   return (
     <div className="font-body min-h-screen selection:bg-saffron">
       <div className="noise" />
-      <Cursor />
       <Loader show={loading} />
       <Navbar/>
       <main>

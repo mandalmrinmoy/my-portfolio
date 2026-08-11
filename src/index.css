@@ -14,20 +14,16 @@ html {
 body {
   background-color: #0b1018;
   color: #edeae0;
-  cursor: none;
+  cursor: auto;
   background-image: radial-gradient(circle, #1c2740 1px, transparent 1px);
   background-size: 28px 28px;
   background-attachment: fixed;
 }
 
-@media (max-width: 768px), (hover: none) {
-  body {
-    cursor: auto;
-  }
-  .cursor-dot,
-  .cursor-ring {
-    display: none !important;
-  }
+a,
+button,
+[data-cursor="pointer"] {
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: reduce) {
